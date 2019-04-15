@@ -16,7 +16,7 @@ def remove_files(fls):
     :type fls: list
     """
 
-    [os.remove(d) for d in fls]
+    [os.remove(d) for d in fls if os.path.exists(d)]
 
 def remove_dirs(dirs):
     """
@@ -25,4 +25,4 @@ def remove_dirs(dirs):
     :type dirs: list
     """
 
-    [os.rmdir(d) for d in dirs]
+    [os.rmdir(d) for d in dirs if os.path.exists(d)]
