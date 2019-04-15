@@ -67,7 +67,7 @@ class col_types(object):
     def test_ser_int(ser):
         """
 
-        Tests to see if the series is a string
+        Tests to see if the series is an integer
         :param ser: the series to test
         :type ser: a pandas series
         :returns: True or False
