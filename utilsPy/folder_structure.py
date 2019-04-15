@@ -1,4 +1,14 @@
 import os
+import shutil
+
+def create_files(fls):
+    """
+    Creates files
+    :param fls: the files to remove
+    :type fls: list
+    """
+
+    [open(d, 'w') for d in fls if not os.path.exists(d)]
 
 def create_dirs(dirs):
     """
@@ -25,4 +35,4 @@ def remove_dirs(dirs):
     :type dirs: list
     """
 
-    [os.rmdir(d) for d in dirs if os.path.exists(d)]
+    [shutil.rmtree(d) for d in dirs if os.path.exists(d)]
