@@ -7,8 +7,8 @@ class config_TestClass(unittest.TestCase):
     def __init__(self, *args, **kwargs):
 
         super(config_TestClass, self).__init__(*args, **kwargs)
-        self.yaml_pth = "./utils/tests/test.yml"
-        self.json_pth = "./utils/tests/test.json"
+        self.yaml_pth = "./utilsPy/tests/test.yml"
+        self.json_pth = "./utilsPy/tests/test.json"
 
     def test_read_yaml(self):
         cu_yaml = read_yaml(self.yaml_pth)
