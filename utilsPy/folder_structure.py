@@ -7,7 +7,7 @@ def create_dirs(dirs):
     :type dirs: list
     """
     
-    [os.mkdir(d) for d in dirs if not os.path.isdir(dirs)]
+    [os.mkdir(d) for d in dirs if not os.path.isdir(d)]
 
 def remove_files(fls):
     """
@@ -16,7 +16,7 @@ def remove_files(fls):
     :type fls: list
     """
 
-    [os.remove(d) for d in fls if d in os.listdir(os.path.dirname(d))]
+    [os.remove(d) for d in fls]
 
 def remove_dirs(dirs):
     """
@@ -25,4 +25,4 @@ def remove_dirs(dirs):
     :type dirs: list
     """
 
-    [os.rmdir(d) for d in dirs if d in os.listdir(os.getcwd())]
+    [os.rmdir(d) for d in dirs]
