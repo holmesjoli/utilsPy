@@ -1,7 +1,6 @@
 import yaml
 import json
 import os 
-import sys
 
 def read_yaml(pth):
     """
@@ -31,6 +30,7 @@ def read_json(pth):
 
 def update_yaml(pth, config):
     """
+
     Writes out the updated config file to a new yaml file
     :param pth: the path to the yaml config file
     :type pth: str
