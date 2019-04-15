@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 
-from utils.col_types import col_types as ct
+from utilsPy.col_types import col_types as ct
 
 class col_types_TestClass(unittest.TestCase):
  

@@ -1,6 +1,6 @@
 import unittest
 import os
-from utils.config import read_json, read_yaml
+from utilsPy.config import read_json, read_yaml
 
 class config_TestClass(unittest.TestCase):
  
