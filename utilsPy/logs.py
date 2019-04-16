@@ -26,7 +26,7 @@ class logging(object):
         """
         cls.end_tm = datetime.now()
         print(cls.hash)
-        print("Log file close on {}".format(cls.end_tm))
+        print("Log file closed on {}".format(cls.end_tm))
         print("Took {} time to run".format(cls.end_tm - cls.start_tm))
         sys.stdout = cls.old_stdout
         cls.log_file.close()
