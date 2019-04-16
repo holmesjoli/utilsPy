@@ -4,7 +4,7 @@ import shutil
 def create_files(fls):
     """
     Creates files
-    :param fls: the files to remove
+    :param fls: the files to create
     :type fls: list
     """
 
@@ -13,7 +13,7 @@ def create_files(fls):
 def create_dirs(dirs):
     """
     Creates a file structure
-    :param dirs: the directories to remove
+    :param dirs: the directories to create
     :type dirs: list
     """
     
