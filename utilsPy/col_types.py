@@ -36,7 +36,7 @@ class col_types(object):
     def test_ser_str(ser):
         """
 
-        Tests to see if the series is a string
+        Tests if the series is a string
         :param ser: the series to test
         :type ser: pandas series
         :returns: True or False
@@ -52,7 +52,7 @@ class col_types(object):
     def test_ser_num(ser):
         """
 
-        Tests to see if the series is number
+        Tests if the series is number
         :param ser: the series to test
         :type ser: pandas series
         :returns: True or False
@@ -67,7 +67,7 @@ class col_types(object):
     def test_ser_int(ser):
         """
 
-        Tests to see if the series is an integer
+        Tests if the series is an integer
         :param ser: the series to test
         :type ser: a pandas series
         :returns: True or False
@@ -83,7 +83,7 @@ class col_types(object):
     def test_ser_flt(ser):
         """
 
-        Tests to see if the series is a float
+        Tests if the series is a float
         :param ser: the series to test
         :type ser: a pandas series
         :returns: True or False
@@ -99,7 +99,7 @@ class col_types(object):
     def test_ser_cmplx(ser):
         """
 
-        Tests to see if the series is complex
+        Tests if the series is complex
         :param ser: the series to test
         :type ser: a pandas series
         :returns: True or False
@@ -115,7 +115,7 @@ class col_types(object):
     def test_ser_date(ser):
         """
 
-        Tests to see if the series is a date
+        Tests if the series is a date
         :param ser: the series to test
         :type ser: a pandas series
         :returns: True or False
@@ -126,7 +126,7 @@ class col_types(object):
     def test_ser_datetime(ser):
         """
 
-        Tests to see if the series is a datetime
+        Tests if the series is a datetime
         :param ser: the series to test
         :type ser: a pandas series
         :returns: True or False
@@ -137,7 +137,7 @@ class col_types(object):
     def test_ser_spatial(ser):
         """
 
-        Tests to see if the series is spatial
+        Tests if the series is spatial
         :param ser: the series to test
         :type ser: a pandas series
         :returns: True or False
@@ -148,7 +148,7 @@ class col_types(object):
     def test_ser_bool(ser):
         """
 
-        Tests to see if the series is boolean
+        Tests if the series is boolean
         :param ser: the series to test
         :type ser: a pandas series
         :returns: True or False
