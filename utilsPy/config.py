@@ -13,7 +13,7 @@ def read_yaml(pth):
     """
 
     with open(pth, "r", encoding = "utf-8") as cf:
-        return yaml.load(cf, Loader = yaml.FullLoader)
+        return yaml.load(cf)
 
 def read_json(pth):
     """
