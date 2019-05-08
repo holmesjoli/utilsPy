@@ -7,7 +7,7 @@ class logging(object):
     def open_log(cls, fl):
         """
         Opens the log file
-        :param fl: the name of the file 
+        :param fl: the name of the file
         :type fl: str
         """
         cls.start_tm = datetime.now()

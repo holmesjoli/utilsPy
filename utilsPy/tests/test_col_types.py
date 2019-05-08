@@ -4,7 +4,7 @@ import pandas as pd
 from utilsPy.col_types import col_types as ct
 
 class col_types_TestClass(unittest.TestCase):
- 
+
     def __init__(self, *args, **kwargs):
 
         super(col_types_TestClass, self).__init__(*args, **kwargs)
@@ -21,7 +21,7 @@ class col_types_TestClass(unittest.TestCase):
         self.assertFalse(ct.test_ser_str(self.df['A']))
         self.assertFalse(ct.test_ser_str(self.df['B']))
         self.assertFalse(ct.test_ser_str(self.df['C']))
-        self.assertTrue(ct.test_ser_str(self.df['D']))     
+        self.assertTrue(ct.test_ser_str(self.df['D']))
         self.assertFalse(ct.test_ser_str(self.df['E']))
 
     def test_test_ser_num(self):
