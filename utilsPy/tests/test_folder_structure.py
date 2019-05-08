@@ -1,6 +1,5 @@
 import os
 import unittest
-
 from utilsPy.folder_structure import create_files, create_dirs, remove_files, remove_dirs
 
 class folderStructureTestClass(unittest.TestCase):

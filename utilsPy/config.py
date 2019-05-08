@@ -1,6 +1,5 @@
 import yaml
 import json
-import os 
 
 def read_yaml(pth):
     """

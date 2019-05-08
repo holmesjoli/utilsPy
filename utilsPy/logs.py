@@ -10,7 +10,6 @@ class logging(object):
         :param fl: the name of the file 
         :type fl: str
         """
-
         cls.start_tm = datetime.now()
         cls.old_stdout = sys.stdout
         cls.log_file = open(fl, "w")

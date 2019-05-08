@@ -7,7 +7,6 @@ def create_files(fls):
     :param fls: the files to create
     :type fls: list
     """
-
     [open(d, 'w') for d in fls if not os.path.exists(d)]
 
 def create_dirs(dirs):
@@ -16,7 +15,6 @@ def create_dirs(dirs):
     :param dirs: the directories to create
     :type dirs: list
     """
-    
     [os.mkdir(d) for d in dirs if not os.path.isdir(d)]
 
 def remove_files(fls):
@@ -25,7 +23,6 @@ def remove_files(fls):
     :param fls: the files to remove
     :type fls: list
     """
-
     [os.remove(d) for d in fls if os.path.exists(d)]
 
 def remove_dirs(dirs):
@@ -34,5 +31,4 @@ def remove_dirs(dirs):
     :param dirs: the directories to remove
     :type dirs: list
     """
-
     [shutil.rmtree(d) for d in dirs if os.path.exists(d)]
