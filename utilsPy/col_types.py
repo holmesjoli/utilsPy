@@ -70,7 +70,7 @@ class col_types(object):
         """
         if ser.dtype == np.int64:
             return True
-        else: 
+        else:
             return False
 
     @staticmethod
