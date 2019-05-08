@@ -23,12 +23,9 @@ class col_types(object):
                       "date": datetime}
 
     def get_type(self, key):
-
         try:
             return self.types[key.lower()]
-
         except KeyError:
-
             raise ValueError("Expects type to be one of the following values in upper or lowercase: \n{}".format("\n".join(self.types.keys())))
 
     @staticmethod
@@ -41,7 +38,6 @@ class col_types(object):
         :returns: True or False
         :rtype: boolean
         """
-
         if ser.dtype == "object":
             return True
         else: 
@@ -72,7 +68,6 @@ class col_types(object):
         :returns: True or False
         :rtype: boolean
         """
-
         if ser.dtype == np.int64:
             return True
         else: 
@@ -88,7 +83,6 @@ class col_types(object):
         :returns: True or False
         :rtype: boolean
         """
-
         if ser.dtype == np.float64:
             return True
         else:
@@ -104,7 +98,6 @@ class col_types(object):
         :returns: True or False
         :rtype: boolean
         """
-
         if ser.dtype == np.complex128:
             return True
         else:
@@ -153,9 +146,7 @@ class col_types(object):
         :returns: True or False
         :rtype: boolean
         """
-
         if ser.dtype == bool:
             return True
         else:
             return False
-

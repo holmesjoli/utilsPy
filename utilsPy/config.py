@@ -10,7 +10,6 @@ def read_yaml(pth):
     :returns: the config file
     :rtype: dct
     """
-
     with open(pth, "r", encoding = "utf-8") as cf:
         return yaml.load(cf)
 
@@ -23,7 +22,6 @@ def read_json(pth):
     :returns: the config file
     :rtype: dct
     """
-
     with open(pth, "r", encoding = "utf-8") as cf:
         return json.load(cf)
 
@@ -36,6 +34,5 @@ def update_yaml(pth, config):
     :param config: the configuration file to write out
     :type config: dct
     """
-
     with open(pth, "w") as cf:
             yaml.dump(config, cf, default_flow_style = True, default_style = '"')
