@@ -11,7 +11,7 @@ def read_yaml(pth):
     :rtype: dct
     """
     with open(pth, "r", encoding = "utf-8") as cf:
-        return yaml.load(cf)
+        return yaml.safe_load(cf)
 
 def read_json(pth):
     """
