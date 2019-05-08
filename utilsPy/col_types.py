@@ -40,7 +40,7 @@ class col_types(object):
         """
         if ser.dtype == "object":
             return True
-        else: 
+        else:
             return False
 
     @staticmethod
