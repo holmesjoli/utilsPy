@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name = "utilsPy",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Joli Holmes",
     author_email = "jh111@rice.edu",
     description = "Python package with basic utility functions",
