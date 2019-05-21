@@ -1,5 +1,10 @@
 # About
 
+<!-- badges: start -->
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b2ca9447f9954dc1b0d920f5f2559d1c)](https://www.codacy.com/app/holmesjoli/utilsPy?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=holmesjoli/utilsPy&amp;utm_campaign=Badge_Grade)
+[![Build status](https://travis-ci.org/holmesjoli/utilsPy.svg?branch=master)](https://travis-ci.org/holmesjoli/utilsPy)
+<!-- badges: end -->
+
 The utilsPy package contains general utility functions.
 
 ## Col Types
