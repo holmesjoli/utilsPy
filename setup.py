@@ -7,7 +7,7 @@ setuptools.setup(
     name = "utilsPy",
     version = "0.0.2",
     author = "Joli Holmes",
-    author_email = "jh111@rice.edu",
+    author_email = "holmesjoli@gmail.com",
     description = "Python package with basic utility functions",
     long_description = long_description,
     long_description_content_type = "text/markdown",
