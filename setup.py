@@ -14,6 +14,6 @@ setuptools.setup(
     url = "https://github.com/holmesjoli/utilsPy",
     packages = setuptools.find_packages(),
     install_requires = [
-        'pyyaml==5.1'
+        'pyyaml==5.4'
     ]
 )
